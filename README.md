@@ -49,15 +49,16 @@ npm run web
 
 ## Pruebas
 
-Para ejecutar las pruebas unitarias:
+Para ejecutar las pruebas unitarias con coverage:
 
 ```bash
 npm run test:coverage
 ```
 
-Para ejecutar las pruebas en modo watch:
+## Imagen demo
 
-```bash
-npm run test:watch
-```
+
+<img width="370" height="1732" alt="Simulator Screenshot - iPhone 16e - 2025-11-21 at 08 28 32" src="https://github.com/user-attachments/assets/d40ba99c-780e-40b8-8646-cb28fa9e0d18" />
+
+
 
