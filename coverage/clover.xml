@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1763684633732" clover="3.2.0">
+  <project timestamp="1763684633732" name="All files">
+    <metrics statements="44" coveredstatements="44" conditionals="28" coveredconditionals="28" methods="4" coveredmethods="4" elements="76" coveredelements="76" complexity="0" loc="44" ncloc="44" packages="2" files="3" classes="3"/>
+    <package name="components">
+      <metrics statements="26" coveredstatements="26" conditionals="16" coveredconditionals="16" methods="3" coveredmethods="3"/>
+      <file name="GradientText.tsx" path="/Users/jcapasix/Developer/reto-clima-native/src/components/GradientText.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="13" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="3" type="stmt"/>
+      </file>
+      <file name="WeatherApp.tsx" path="/Users/jcapasix/Developer/reto-clima-native/src/components/WeatherApp.tsx">
+        <metrics statements="22" coveredstatements="22" conditionals="12" coveredconditionals="12" methods="2" coveredmethods="2"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="41" type="stmt"/>
+        <line num="17" count="40" type="stmt"/>
+        <line num="18" count="40" type="stmt"/>
+        <line num="19" count="40" type="stmt"/>
+        <line num="21" count="40" type="stmt"/>
+        <line num="22" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="28" count="6" type="stmt"/>
+        <line num="29" count="6" type="stmt"/>
+        <line num="30" count="6" type="stmt"/>
+        <line num="32" count="6" type="stmt"/>
+        <line num="33" count="6" type="stmt"/>
+        <line num="34" count="4" type="stmt"/>
+        <line num="35" count="4" type="stmt"/>
+        <line num="37" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="38" count="2" type="stmt"/>
+        <line num="39" count="2" type="stmt"/>
+        <line num="41" count="6" type="stmt"/>
+        <line num="45" count="40" type="stmt"/>
+      </file>
+    </package>
+    <package name="services">
+      <metrics statements="18" coveredstatements="18" conditionals="12" coveredconditionals="12" methods="1" coveredmethods="1"/>
+      <file name="weatherService.ts" path="/Users/jcapasix/Developer/reto-clima-native/src/services/weatherService.ts">
+        <metrics statements="18" coveredstatements="18" conditionals="12" coveredconditionals="12" methods="1" coveredmethods="1"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="16" count="8" type="cond" truecount="4" falsecount="0"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="20" count="6" type="stmt"/>
+        <line num="21" count="6" type="stmt"/>
+        <line num="25" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="29" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="44" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="45" count="4" type="stmt"/>
+        <line num="47" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

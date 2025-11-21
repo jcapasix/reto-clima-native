@@ -1,0 +1,127 @@
+import { StyleSheet } from 'react-native';
+
+export const weatherAppStyles = StyleSheet.create({
+  container: {
+    flex: 1,
+  },
+  scrollContent: {
+    flexGrow: 1,
+    padding: 20,
+  },
+  content: {
+    flex: 1,
+    justifyContent: 'flex-start',
+    paddingTop: 60,
+  },
+  titleGradient: {
+    borderRadius: 15,
+    padding: 20,
+    marginBottom: 30,
+    alignItems: 'center',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.3,
+    shadowRadius: 8,
+    elevation: 5,
+  },
+  title: {
+    fontSize: 32,
+    fontWeight: 'bold',
+    textAlign: 'center',
+    marginBottom: 30,
+    width: '100%',
+  },
+  searchContainer: {
+    flexDirection: 'row',
+    marginBottom: 20,
+  },
+  input: {
+    flex: 1,
+    backgroundColor: '#fff',
+    borderRadius: 10,
+    padding: 15,
+    fontSize: 16,
+    borderWidth: 1,
+    borderColor: '#4A90E2',
+    marginRight: 10,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+    elevation: 3,
+  },
+  button: {
+    borderRadius: 10,
+    padding: 15,
+    alignItems: 'center',
+    justifyContent: 'center',
+    minWidth: 120,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.2,
+    shadowRadius: 4,
+    elevation: 3,
+  },
+  buttonDisabled: {
+    opacity: 0.6,
+  },
+  buttonText: {
+    color: '#fff',
+    fontSize: 18,
+    fontWeight: '600',
+  },
+  errorContainer: {
+    backgroundColor: '#ffebee',
+    borderRadius: 10,
+    padding: 15,
+    marginTop: 10,
+    borderLeftWidth: 4,
+    borderLeftColor: '#f44336',
+  },
+  errorText: {
+    color: '#c62828',
+    fontSize: 16,
+  },
+  weatherContainer: {
+    borderRadius: 20,
+    padding: 30,
+    marginTop: 20,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 8 },
+    shadowOpacity: 0.3,
+    shadowRadius: 12,
+    elevation: 8,
+  },
+  cityName: {
+    fontSize: 32,
+    fontWeight: 'bold',
+    color: '#fff',
+    marginBottom: 30,
+    textAlign: 'center',
+  },
+  weatherInfo: {
+    marginTop: 10,
+  },
+  infoRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    paddingVertical: 15,
+  },
+  divider: {
+    height: 1,
+    backgroundColor: 'rgba(255, 255, 255, 0.3)',
+    marginVertical: 5,
+  },
+  infoLabel: {
+    fontSize: 18,
+    color: '#fff',
+    fontWeight: '500',
+  },
+  infoValue: {
+    fontSize: 18,
+    color: '#fff',
+    fontWeight: '600',
+  },
+});
+
